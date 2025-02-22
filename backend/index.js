@@ -9,7 +9,7 @@ import cors from "cors";  //CORS IS TO BIND FRONTEND and BACKEND running on diff
 import path from "path";
 const __dirname = path.resolve();
 //--
-const port = process.env.PORT || 6000; 
+const port = process.env.PORT || 5000; 
 const app = express();
 
 app.use(cors({origin: "http://localhost:5173", credentials: true}))  //we send the cookies through this line to backend
